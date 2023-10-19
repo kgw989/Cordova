@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>강지원의 이력서</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #2f2f2f;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 16px;
+        }
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 10px;
+        }
+        .wrapper {
+            width: 85%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        h2, h3 {
+            font-family: sans-serif;
+        }
+
+        h2 {
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        #my_info h2 {
+            display: none;
+        }
+
+        #my_info img {
+            width: 100px;
+            height: auto;
+            border-radius: 50px;
+            margin-right: 40px;
+        } 
+
+        table {
+            display: inline-block;
+            border-collapse: collapse;
+            border-spacing: 0;
+            vertical-align: top;
+        }
+
+        th {
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        th, td {
+            font-size: 12px;
+        }  
+
+        #myname th {
+            display: none;
+        }
+
+        #myname td {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: gold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 4px;
+        }
+
+        ul li::before {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        ul li:nth-child(1)::before {
+            content: url('../0921/flowerstar/sourcecode/images/ico_mobile.png');
+        }
+        ul li:nth-child(2)::before {
+            content: url('../0921/flowerstar/sourcecode/images/ico_email.png');
+        }
+        ul li:nth-child(3)::before {
+            content: url('../0921/flowerstar/sourcecode/images/ico_github.png');
+        }
+
+        #skill ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skill li {
+            display: inline-block;
+            background-color: gold;
+            padding: 4px 10px;
+            border-radius: 32px;
+            margin: 0 8px 8px 0;
+        }
+
+        #skill li::before {
+            content: "#";
+        }
+
+        #project ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        #project li {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        #project li:last-child {
+            border-bottom: none;
+        }
+
+        #project video {
+            width: 100%;
+        }
+
+        #project a {
+            color: gold;
+            display: inline-block;
+            border-radius: 4px;
+            padding: 2px 8px 2px 0;
+        }
+
+        #project a:hover {
+            background-color: #2f2f2f;
+            text-decoration: none;
+            padding: 2px 8px;
+            transition: padding 0.2s;
+        }
+    </style>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>강지원의 이력서</h1> 
+    
+        <section id="my_info">
+            <h2>My info</h2> 
+            <img src="../0921/flowerstar/sourcecode/images/사람.png" alt="사람" />
+            <table>
+                <tbody>
+                    <tr id="myname">
+                        <th>이름</th>
+                        <td>강지원</td>
+                    </tr>
+                    <tr>
+                        <th>직업</th>
+                        <td>생각안해봄</td>
+                    </tr>
+                    <tr>
+                        <th>나이</th>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <th>MBTI</th>
+                        <td>ISTP</td>
+                    </tr>
+                    <tr>
+                        <th>거주지</th>
+                        <td>울산</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            
+        <section id=""about>
+            <h2>About</h2>
+            <p>일단 해보자.</p>   
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <a href="tel:0100000000">010-3011-0528</a>
+                </li>
+                <li>
+                    <a href="mailto:kgw989@naver.com" target="_blank">kgw989@naver.com</a>
+                </li>
+                <li>
+                    <a href="https://github.com/kgw989/Cordova" target="_blank">@kgw989</a>
+                </li>
+            </ul>  
+        </section>
+        
+        <section id="skill">
+            <h2>Skills</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+        </section>
+    </div>
+    
+
+</body>
+</html>
