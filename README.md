@@ -1,2 +1,2 @@
 # Cordova
-[자기소개글](https://kgw989.github.io/Cordova/week2/introduction.html)
+[자기소개글](https://kgw989.github.io/Cordova/kgw수정.html)
