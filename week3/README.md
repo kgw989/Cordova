@@ -1,6 +1,6 @@
 ## 3주자 레포트
 
-[링크이름](https://kgw989.github.io/Cordova/week3/pdf.html)
+[링크이름](https://kgw989.github.io/Cordova/week3/pdt.html)
 
 
 ![image](https://github.com/kgw989/Cordova/assets/115057199/c7189383-1638-4c5b-b222-d9a7ab158816)
